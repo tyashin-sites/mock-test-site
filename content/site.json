@@ -1,0 +1,58 @@
+{
+  "site": {
+    "name": "MockCo",
+    "tagline": "Build Your Dream Website"
+  },
+  "header": {
+    "logo": "MockCo",
+    "nav": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Build Your Dream Website",
+        "subtitle": "Create stunning websites in minutes.",
+        "cta": {
+          "text": "Get Started",
+          "href": "/contact"
+        }
+      },
+      "features": {
+        "title": "Features",
+        "items": [
+          {
+            "icon": "zap",
+            "title": "Fast",
+            "description": "Lightning-fast performance."
+          },
+          {
+            "icon": "palette",
+            "title": "Beautiful",
+            "description": "Stunning designs."
+          },
+          {
+            "icon": "code",
+            "title": "Simple",
+            "description": "No coding required."
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "copyright": "2026 MockCo"
+  }
+}

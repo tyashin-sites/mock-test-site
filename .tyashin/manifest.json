@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "framework": "nextjs",
+  "generatedAt": "2026-04-28T22:14:43.922Z",
+  "pages": {
+    "/": {
+      "file": "src/app/page.tsx",
+      "sections": [
+        "Hero",
+        "Features"
+      ],
+      "isServerComponent": true,
+      "hasDynamicRoute": false,
+      "dataFetching": []
+    },
+    "/about": {
+      "file": "src/app/about/page.tsx",
+      "sections": [],
+      "isServerComponent": true,
+      "hasDynamicRoute": false,
+      "dataFetching": []
+    },
+    "/contact": {
+      "file": "src/app/contact/page.tsx",
+      "sections": [
+        "ContactForm"
+      ],
+      "isServerComponent": true,
+      "hasDynamicRoute": false,
+      "dataFetching": []
+    }
+  },
+  "components": {
+    "Hero": {
+      "file": "src/components/Hero.tsx",
+      "isClientComponent": false,
+      "usedBy": [
+        "/"
+      ],
+      "props": []
+    },
+    "Features": {
+      "file": "src/components/Features.tsx",
+      "isClientComponent": false,
+      "usedBy": [
+        "/"
+      ],
+      "props": []
+    },
+    "ContactForm": {
+      "file": "src/components/ContactForm.tsx",
+      "isClientComponent": true,
+      "usedBy": [
+        "/contact"
+      ],
+      "props": []
+    }
+  },
+  "config": {
+    "layout": "src/app/layout.tsx",
+    "globals": "src/app/globals.css",
+    "tailwind": "tailwind.config.ts",
+    "fonts": null,
+    "content": "content/site.json",
+    "nextConfig": "next.config.ts",
+    "packageJson": "package.json"
+  },
+  "designSystem": {
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#1E40AF",
+    "accentColor": "#F59E0B",
+    "headingFont": "Inter",
+    "bodyFont": "Inter"
+  },
+  "ecommerce": {
+    "enabled": false,
+    "serverClient": null,
+    "clientSdk": null,
+    "cartProvider": null
+  }
+}
